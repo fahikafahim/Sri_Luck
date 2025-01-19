@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Common BTN */
+  .btn {
+    @apply w-full py-2.5 bg-gray-800 text-white font-medium rounded-3xl hover:bg-gray-500 transition;
+  }
+
+  /* Common Input */
+  .input-field {
+    @apply w-full px-4 py-2 border rounded-xl focus:ring-2 focus:ring-gray-800 focus:outline-none;
+  }
+
+  /* Common Container */
+  .form-container {
+    @apply space-y-4;
+  }
+}
